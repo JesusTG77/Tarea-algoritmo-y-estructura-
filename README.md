@@ -1,5 +1,6 @@
-1.Ejemplo de lista using System; using System.Collections.Generic;
+1.Ejemplo de lista 
 
+    using System; using System.Collections.Generic;
     public class EjemploLista { public static void Main(string[] args) { // Crear una lista de enteros List numeros = new List();
     // Añadir elementos a la lista
     numeros.Add(10);
@@ -14,8 +15,9 @@
     }
     }
 
-2.Buscar un elemento en un diccionario using System; using System.Collections.Generic;
+2.Buscar un elemento en un diccionario 
 
+    using System; using System.Collections.Generic;
     public class EjemploDiccionario { public static void Main(string[] args) { // Crear un diccionario de nombres y edades Dictionary<string, int> edades = new Dictionary<string, int>();
     // Añadir elementos al diccionario
     edades.Add("Alice", 30);
@@ -44,8 +46,9 @@
     }
     }
 
-3.Eliminar un elemento de una cola (Queue) using System; using System.Collections.Generic;
-
+3.Eliminar un elemento de una cola (Queue) 
+    
+    using System; using System.Collections.Generic;
     public class EjemploCola { public static void Main(string[] args) { // Crear una cola de cadenas Queue pedidos = new Queue();
     // Añadir elementos a la cola
     pedidos.Enqueue("Pizza");
@@ -70,8 +73,9 @@
     }
     }
 
-4.Insertar un elemento en una pila (stack) using System; using System.Collections.Generic;
+4.Insertar un elemento en una pila (stack) 
 
+    using System; using System.Collections.Generic;
     public class EjemploPila { public static void Main(string[] args) { // Crear una pila de enteros Stack libros = new Stack();
     // Añadir elementos a la pila (simulando apilar libros)
     libros.Push(101); // Libro 101
@@ -96,8 +100,9 @@
     }
     } 
 
-5.Recorrer los elementos de un conjunto (hasheSet) using System; using System.Collections.Generic;
+5.Recorrer los elementos de un conjunto (hasheSet) 
 
+    using System; using System.Collections.Generic;
     public class EjemploHashSet { public static void Main(string[] args) { // Crear un conjunto de cadenas HashSet frutas = new HashSet();
     // Añadir elementos al conjunto
     frutas.Add("Manzana");
